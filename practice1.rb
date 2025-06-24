@@ -88,10 +88,3 @@ p [2,3,4,5,6].delete_if{|i| i % 2 == 0}
 p [2,3,4,5,6].delete(2) # return deleted elements
 
 
-
-
-
-
-
-
-
