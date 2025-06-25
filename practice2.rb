@@ -328,7 +328,6 @@ end
 
 
 ################################################## Practice ##################################################
-
 module Greeting
     def say_hello
         'Hello My Friend'
@@ -374,3 +373,10 @@ def blocks
     yield 
 end
 blocks{ puts "This is block"}
+
+a = 10
+b = 20
+
+a,b = b,a
+puts a
+puts b
